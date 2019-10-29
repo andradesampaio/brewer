@@ -23,6 +23,8 @@
         <servlet.version>3.1.0</servlet.version>
         <!-- Thymeleaf -->
         <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
+        <!-- Bean Validation / Hibernate Validator -->
+        <hibernate-validator.version>5.2.4.Final</hibernate-validator.version>
     </properties>
 
     <build>
@@ -76,6 +78,21 @@
             <artifactId>thymeleaf-spring4</artifactId>
             <version>${thymeleaf.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+        <!-- Bean Validation / Hibernate Validator -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>${hibernate-validator.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
     </dependencies>
 
 </project>
