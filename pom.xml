@@ -18,7 +18,7 @@
         <maven-compiler-pluging.version>3.2</maven-compiler-pluging.version>
 
         <!-- Spring MVC -->
-        <spring-framework.version>5.1.8.RELEASE</spring-framework.version>
+        <spring-framework.version>5.1.18.RELEASE</spring-framework.version>
         <!-- Servlet API -->
         <servlet.version>3.1.0</servlet.version>
         <!-- Thymeleaf -->
